@@ -1,0 +1,158 @@
+/* default css and navigation*/
+* {
+    font-family: Tahoma, "Times New Roman", sans-serif;
+
+}
+html, body {
+    height: 100%;
+    background: lightblue;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background: white;
+    border: black dotted;
+    margin-bottom: 1%;
+}
+
+div#leftNav {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+div#rightNav {
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+nav p a {
+    color: black;
+    margin: 10px;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    font-weight: bold;
+    background-image: url("images/background.png");
+    font-size: xx-large;
+    color: black;
+}
+
+main {
+    clear: both;
+    width: 100%;
+    color: black;
+    background: white;
+    border: dotted black;
+    margin-top: 1%;
+    text-align: center;
+    min-height: 60%;
+}
+
+nav a:hover{
+    color: green;
+}
+
+h1 {
+    color: black;
+    font-size: large;
+    margin: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: lightsteelblue;
+    text-align: center;
+}
+
+h2 {
+    font-size: x-large;
+}
+
+main h3 {
+    font-size: xx-large;
+    color: red;
+}
+
+h4 {
+    font-size: xx-large;
+    color: red;
+}
+
+blockquote {
+    font-size: x-large;
+}
+
+span {
+    text-decoration: underline black;
+    font-size: x-large;
+}
+
+/* Css for specific class or id*/
+h1:first-letter {
+    color: steelblue;
+    font-size: x-large;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+section.nonCentered {
+    text-align: left;
+    margin: 20px;
+}
+
+img#totem {
+    float: left;
+}
+
+.center {
+    text-align: center;
+    font-size: x-large;
+}
+
+p#below {
+    clear: left;
+    padding-top: 40px;
+}
+
+.xlarge {
+    font-size: x-large;
+}
+
+img#totem2 {
+    float: right;
+}
+
+.margin {
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+h3#location {
+    clear: left;
+}
+
+.left {
+    font-size: x-large;
+}
+
+main#services p {
+    font-size: x-large;
+}
+
+main#gallery p {
+    font-size: x-large;
+}
+
+span#capitalize {
+    color: steelblue;
+    font-size: x-large;
+    font-weight: bolder;
+    text-transform: capitalize;
+    text-decoration: none;
+}
